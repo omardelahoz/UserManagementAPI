@@ -21,13 +21,11 @@ namespace UserManagement.Application.Features.Roles.Queries.All
 
         public async Task<Response<DTO.Role>> Handle(GetRoleList request, CancellationToken cancellationToken)
         {
-            var paginate = request.paginate;
-            var orderBy = OrderByUserList.GetOrderBy(paginate!);
 
             Response<DTO.Role> result = new Response<DTO.Role>()
             {
                 Total = await _genericRepository.GetTotal(),
-                ResultList = _mapper.Map<List<DTO.Role>>(await _genericRepository.GetAll(paginate:paginate))
+                ResultList = _mapper.Map<List<DTO.Role>>(await _genericRepository.GetAll(x => x.OrderBy(y => y.RolName)))
             };
 
             return result;

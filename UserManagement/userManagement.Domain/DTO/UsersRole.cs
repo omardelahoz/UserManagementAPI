@@ -12,7 +12,7 @@
 
         public Guid IdUser { get; set; }
 
-        public User Role { get; set; } = null!;
+        public Role Role { get; set; } = null!;
 
         public User User { get; set; } = null!;
     }

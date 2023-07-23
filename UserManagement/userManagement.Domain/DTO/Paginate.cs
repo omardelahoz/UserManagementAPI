@@ -10,8 +10,8 @@
 
         public Paginate()
         {
-            PageSize = 10;
-            PageIndex = 1;
+            PageSize = int.MaxValue;
+            PageIndex = 0;
             Ascendent = true;
         }
     }
