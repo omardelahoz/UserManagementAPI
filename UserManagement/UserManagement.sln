@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Api", "UserManagement.Api\UserManagement.Api.csproj", "{EEB17FE4-8914-4657-8C02-8F611DBD6EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Api", "UserManagement.Api\UserManagement.Api.csproj", "{EEB17FE4-8914-4657-8C02-8F611DBD6EE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{23F509F7-5B67-4F34-BDAE-67CC2AB23521}"
 EndProject
@@ -11,13 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3FF8F4F0-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{965EAB16-6B8E-43B0-9FA0-D923154DB05C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2EFCDB77-7896-4F3D-8784-CABC69621E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Application", "UserManagement.Application\UserManagement.Application.csproj", "{482EC6A1-FECF-4ECB-A04D-2566E73B9CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Application", "UserManagement.Application\UserManagement.Application.csproj", "{482EC6A1-FECF-4ECB-A04D-2566E73B9CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Domain", "userManagement.Domain\UserManagement.Domain.csproj", "{293DB2C0-3168-4564-B563-8B58AABF960B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Domain", "userManagement.Domain\UserManagement.Domain.csproj", "{293DB2C0-3168-4564-B563-8B58AABF960B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Infrastructure", "Usermanagement.Infrastructure\UserManagement.Infrastructure.csproj", "{08AD4F4F-EE51-4228-8EDB-C79158465009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Infrastructure", "Usermanagement.Infrastructure\UserManagement.Infrastructure.csproj", "{08AD4F4F-EE51-4228-8EDB-C79158465009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
